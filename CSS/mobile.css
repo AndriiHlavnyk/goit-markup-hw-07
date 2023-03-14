@@ -1,0 +1,54 @@
+@media screen and (min-width: 480px) {
+  .mob-menu > .container {
+    width: 428px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+  }
+  .mob-menu-tel {
+    font-size: 62.5%;
+  }
+  .mob-menu {
+    padding-left: 40px;
+  }
+  .mob-soc-list {
+    display: flex;
+    gap: 56px;
+  }
+  .header > .container {
+    width: 480px;
+  }
+  .modal {
+    width: 392px;
+  }
+  .one-title {
+    width: 320px;
+    margin-bottom: 72px;
+  }
+  .sect-one-container {
+    width: 350px;
+  }
+  .section-four {
+    background-color: var(--milk-white);
+    padding-top: 96px;
+    padding-bottom: 128px;
+  }
+  .section-four > .container {
+    width: 320px;
+  }
+  .section-five > .container {
+    width: 480px;
+  }
+  .section-five-item:nth-last-child(-n + 2) {
+    margin-bottom: 0px;
+  }
+  .section-two > .container {
+    width: 480px;
+  }
+  .section-buttons-foto > .container {
+    width: 428px;
+  }
+  img {
+    width: 100%;
+  }
+}

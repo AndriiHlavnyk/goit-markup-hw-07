@@ -1,0 +1,194 @@
+@media screen and (min-width: 768px) {
+  .header > .container {
+    width: 768px;
+  }
+  .header-line {
+    align-items: normal;
+  }
+  .mail-padding {
+    margin-bottom: 8px;
+  }
+  .logo-up {
+    margin-right: 123px;
+  }
+  .header-line {
+    display: flex;
+    align-items: center;
+  }
+  .menu-open {
+    display: none;
+  }
+  .site-nav .link {
+    display: block;
+  }
+  .address {
+    display: block;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 12px;
+  }
+  .li-one .logo .link {
+    color: var(--h-title);
+    position: relative;
+    transition: 250ms opacity cubic-bezier(0.4, 0, 0.2, 1),
+      250ms visibility cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
+  }
+  .li-one .link.current .logo {
+    color: var(--web-and-btn);
+  }
+  .li-one {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    display: flex;
+    gap: 40px;
+  }
+  .contacts .link .logo {
+    color: var(--text);
+    transition: 250ms opacity cubic-bezier(0.4, 0, 0.2, 1),
+      250ms visibility cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
+  }
+  .contacts {
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.17;
+  }
+  .modal {
+    width: 408px;
+  }
+  .section-one {
+    padding-top: 112px;
+    padding-bottom: 108px;
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office-tablet.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .section-one {
+      background-image: linear-gradient(
+          to right,
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office-tablet-2x.jpg);
+    }
+  }
+  .one-title {
+    min-width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    margin-bottom: 40px;
+  }
+  .sect-one-container {
+    width: 526px;
+  }
+  .section-two > .container {
+    width: 582px;
+  }
+  .title-h {
+    text-align: left;
+    font-size: 36px;
+  }
+  .sect-two-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .feauture-item {
+    width: calc((100% - 24px) / 2);
+    margin-bottom: 72px;
+  }
+  .feauture-item:nth-last-child(-n + 2) {
+    margin-bottom: 0px;
+  }
+  .section-four {
+    background-color: var(--milk-white);
+    padding-top: 96px;
+    padding-bottom: 128px;
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+  .section-four-item {
+    margin-bottom: 64px;
+  }
+  .section-four-item:nth-last-child(-n + 2) {
+    margin-bottom: 0px;
+  }
+  .section-five-item {
+    width: 168px;
+  }
+  .section-four > .container {
+    width: 582px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .img-foot {
+    display: flex;
+    column-gap: 24px;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .section-five-item:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+  }
+  .section-five {
+    max-width: 582px;
+  }
+  .section-five > .container {
+    width: 582px;
+  }
+  .footer > .container {
+    width: 582px;
+  }
+  .foot-cont {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+  }
+  .modal-form {
+    display: flex;
+    gap: 24px;
+  }
+  .Subscribe-input {
+    width: 264px;
+    margin-bottom: 0;
+  }
+  .logo-down {
+    display: flex;
+  }
+  .sub-text {
+    text-align: left;
+  }
+  .footer-media {
+    margin-top: 0;
+  }
+  .section-buttons-foto {
+    padding-bottom: 96px;
+    padding-top: 64px;
+  }
+  .section-buttons-foto > .container {
+    width: 736px;
+  }
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 48px;
+    column-gap: 20px;
+  }
+  .products-item {
+    width: calc((100% - 24px) / 2);
+  }
+  .list-btn {
+    justify-content: center;
+  }
+}
